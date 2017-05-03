@@ -16,6 +16,10 @@ git push --force-with-lease <repository> <branch>
 ```
 git push --set-upstream <repository> <branch>
 ```
+example:
+```
+git push --set-upstream origin patch-1
+```
 
 ## How do I update a GitHub forked repository?
 Source: http://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository
