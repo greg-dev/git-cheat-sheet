@@ -52,3 +52,14 @@ in order to push it to your own forked repository on GitHub. You'd do that with:
 ```
 git push -f origin master
 ```
+
+## Squash last 5 commits together
+Source: http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git
+```
+git rebase -i HEAD~5
+```
+or if you want to write the new commit message from scratch, this suffices:
+```
+git reset --soft HEAD~3 &&
+git commit
+```
