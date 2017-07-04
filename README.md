@@ -63,3 +63,9 @@ or if you want to write the new commit message from scratch, this suffices:
 git reset --soft HEAD~3 &&
 git commit
 ```
+
+## Make a commit in the past
+Source: https://stackoverflow.com/questions/3895453/how-do-i-make-a-git-commit-in-the-past
+```
+git commit --date="10 day ago" -m "Your commit message"
+```
